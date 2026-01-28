@@ -26,7 +26,8 @@ By the end of this module, you will be able to:
 | Lesson | Est. Time | Skills |
 | ------ |:--------:| ------ |
 | [**Foundations of AI Agentic Workflows**](./foundations-of-agentic-workflows/README.md) | 15 min | Understand agentic workflows and structured frameworks. |
-| [**Building AI Agents with LangChain**](./building-ai-agents/README.md) | 45 min | Build, deploy, and test AI agents using LangChain. |
-| [**Emerging Trends in Agentic AI**](./emerging-trends-in-agentic-ai/README.md) | 30 min | Explore and experiment with ReAct, reflection agents, and multi-agent collaboration. |
+| [**Building AI Agents with LangChain**](./building-ai-agents/README.md) | 40 min | Build, deploy, and test AI agents using LangChain. |
+| [**Emerging Trends in Agentic AI**](./emerging-trends-in-agentic-ai/README.md) | 25 min | Explore and experiment with ReAct, reflection agents, and multi-agent collaboration. |
+| [**Choosing the Right AI Approach**](./choosing-the-right-ai-approach/README.md) | 10 min | Explore and experiment with ReAct, reflection agents, and multi-agent collaboration. |
 | **Total** | **90 min** | **Interactive, hands-on AI agent development experience.** |
 

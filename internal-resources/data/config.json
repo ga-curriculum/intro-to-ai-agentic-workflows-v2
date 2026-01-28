@@ -37,7 +37,7 @@
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 45
+          "estimatedDeliveryTimeInMinutes": 40
         },
         {
           "friendlyName": "Emerging Trends in Agentic AI",
@@ -47,8 +47,20 @@
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 30
+          "estimatedDeliveryTimeInMinutes": 25
+        },
+                {
+          "friendlyName": "Choosing the Right AI Approach",
+          "dirName": "choosing-the-right-ai-approach",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 10
         }
+
+        
       ],
       "isHeaderShown": true,
       "isHeaderModuleNavShown": true,

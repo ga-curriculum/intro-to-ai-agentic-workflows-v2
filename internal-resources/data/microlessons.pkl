@@ -22,3 +22,11 @@ microlesson03 = new Template.Microlesson {
   type = "Content"
   videoUrl = ""
 }
+
+
+microlesson04 = new Template.Microlesson {
+  friendlyName = "Choosing the Right AI Approach"
+  dirName = "choosing-the-right-ai-approach"
+  type = "Content"
+  videoUrl = ""
+}
