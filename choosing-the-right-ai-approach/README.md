@@ -208,7 +208,7 @@ AI agents that can plan, reason, call tools, trigger workflows, and take multi�
 
 *   **Control & safety**: Agents must operate with guardrails.
 *   **Tool integration**: Agents need access to APIs, search tools, or internal systems. Evaluate whether your tooling supports **MCP (Model Context Protocol)** — the emerging standard for connecting agents to tools — to avoid proprietary lock-in and reduce custom integration work.
-*   **Observability**: Must log steps, rationales, and errors.
+*   **Observability**: Must log steps, rationales, errors, token usage, and tool call latency. Production-grade tooling includes **LangSmith**, **AgentOps.ai**, and **Arize Phoenix**. See the **AgentOps: Monitoring and Guardrails** lesson for implementation patterns.
 *   **Reliability**: Must gracefully handle failed actions.
 *   **Security**: Agent actions must align with permissions and identity rules.
 *   **Agent interoperability**: If the workflow involves multiple agents from different vendors or frameworks, evaluate whether they support **A2A (Agent-to-Agent Protocol)** to enable standardized cross-agent communication and task delegation without requiring all agents to be built in the same framework.

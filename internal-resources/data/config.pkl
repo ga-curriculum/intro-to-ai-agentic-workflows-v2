@@ -16,6 +16,7 @@ courses {
       mls.microlesson02
       mls.microlesson03
       mls.microlesson04
+      mls.microlesson05
     }
   }
 }

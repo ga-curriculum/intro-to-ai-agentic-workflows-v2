@@ -23,8 +23,15 @@ microlesson03 = new Template.Microlesson {
   videoUrl = ""
 }
 
-
 microlesson04 = new Template.Microlesson {
+  friendlyName = "AgentOps: Monitoring and Guardrails"
+  dirName = "agentops-monitoring-and-guardrails"
+  type = "Content"
+  videoUrl = ""
+}
+
+
+microlesson05 = new Template.Microlesson {
   friendlyName = "Choosing the Right AI Approach"
   dirName = "choosing-the-right-ai-approach"
   type = "Content"

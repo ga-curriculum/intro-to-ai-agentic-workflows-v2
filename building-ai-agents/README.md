@@ -137,13 +137,18 @@ feedback_response = agent_with_feedback.run("FeedbackCollector: The answer shoul
 print(feedback_response)
 ```
 
-## Coding Challenge: Modify & Expand Your Agent  
+## Coding Challenge: Modify & Expand Your Agent
 
-**Goal:** Modify the agent to handle multiple data sources and improve reasoning accuracy.  
+**Goal:** Modify the agent to handle multiple data sources and improve reasoning accuracy.
 
-**Tasks:**  
-1. Add another external tool (e.g., a real-time API).  
-2. Modify the feedback system to store multiple feedback entries per query.  
-3. Implement a basic reflection mechanism where the agent adjusts based on past responses.  
+**Tasks:**
+1. Add another external tool (e.g., a real-time API).
+2. Modify the feedback system to store multiple feedback entries per query.
+3. Implement a basic reflection mechanism where the agent adjusts based on past responses.
+
+---
+
+> **Up Next — AgentOps: Monitoring and Guardrails**
+> You've now built an agent that can use tools and collect feedback. But how do you know what it's doing in production? And how do you stop it from doing something it shouldn't? In the next lesson, we'll cover observability (logging, tracing, cost monitoring), guardrails (input and output validation), and human-in-the-loop approval gates for high-risk actions.
 
 

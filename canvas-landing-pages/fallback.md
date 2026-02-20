@@ -16,7 +16,8 @@ By the end of this module, you will be able to:
 - **Explain** how AI agents differ from traditional LLM applications and how structured workflows enable autonomy.
 - **Design** and implement AI agent workflows using **LangChain and LangGraph**.
 - **Troubleshoot and optimize** agent behavior by identifying limitations and refining decision-making loops.
-- **Analyze** cutting-edge **emerging trends** in AI agent development, including **ReAct, reflection agents, and multi-agent collaboration**.
+- **Analyze** cutting-edge **emerging trends** in AI agent development, including **MCP (Model Context Protocol), reflection agents, and multi-agent collaboration with A2A**.
+- **Apply** observability, guardrails, and human-in-the-loop controls to build production-ready AI agents.
 - **Experiment** with advanced AI agent capabilities and integrate **feedback loops, reasoning, and adaptability** into your workflows.
 
 ---
@@ -26,8 +27,9 @@ By the end of this module, you will be able to:
 | Lesson | Est. Time | Skills |
 | ------ |:--------:| ------ |
 | [**Foundations of AI Agentic Workflows**](./foundations-of-agentic-workflows/README.md) | 15 min | Understand agentic workflows and structured frameworks. |
-| [**Building AI Agents with LangChain**](./building-ai-agents/README.md) | 40 min | Build, deploy, and test AI agents using LangChain. |
-| [**Emerging Trends in Agentic AI**](./emerging-trends-in-agentic-ai/README.md) | 25 min | Explore and experiment with ReAct, reflection agents, and multi-agent collaboration. |
-| [**Choosing the Right AI Approach**](./choosing-the-right-ai-approach/README.md) | 10 min | Explore and experiment with ReAct, reflection agents, and multi-agent collaboration. |
-| **Total** | **90 min** | **Interactive, hands-on AI agent development experience.** |
+| [**Building AI Agents with LangChain**](./building-ai-agents/README.md) | 35 min | Build, deploy, and test AI agents using LangChain. |
+| [**Emerging Trends in Agentic AI**](./emerging-trends-in-agentic-ai/README.md) | 20 min | Explore MCP (Model Context Protocol) for standardized tool connectivity, reflection agents, and multi-agent collaboration using the A2A protocol. |
+| [**AgentOps: Monitoring and Guardrails**](./agentops-monitoring-and-guardrails/README.md) | 10 min | Implement observability, input/output guardrails, and human-in-the-loop approval gates for production AI agents. |
+| [**Choosing the Right AI Approach**](./choosing-the-right-ai-approach/README.md) | 10 min | Compare ML, neural networks, GenAI, and agentic workflows to select the right AI approach for a given business problem. |
+| **Total** | **~90 min** | **Interactive, hands-on AI agent development experience.** |
 
