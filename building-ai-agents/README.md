@@ -66,9 +66,11 @@ response = agent.run("What is the capital of France?")
 print(response)
 ```
 
-## Step 2: Add a Custom Tool to Your Agent  
+## Step 2: Add a Custom Tool to Your Agent
 
-LangChain allows agents to use external tools (e.g., APIs, databases). Here’s how to add a custom search tool:
+LangChain allows agents to use external tools (e.g., APIs, databases). Here’s how to add a custom search tool.
+
+> **Production context:** In the example below, we define the tool directly in Python. In production agentic systems, tool interfaces like this are increasingly defined using **MCP (Model Context Protocol)** — an open standard that allows any compatible agent to discover and call any compatible tool without custom integration code. You will explore MCP in depth in the Emerging Trends lesson.
 
 ```python
 def search_tool(query: str):

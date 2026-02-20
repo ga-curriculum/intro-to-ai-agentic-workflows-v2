@@ -17,7 +17,7 @@ Unlike static LLM-based applications, agentic AI systems are built using **struc
 
 - **Perception** – How an AI agent **interprets input** (e.g., user prompts, API data).  
 - **Reasoning** – How the agent **processes information and makes decisions**.  
-- **Action** – How the agent **executes tasks** (e.g., retrieving data, generating text).  
+- **Action** – How the agent **executes tasks** (e.g., retrieving data, generating text). Emerging standards like **MCP (Model Context Protocol)** are defining a universal interface for how agents perform tool-based actions, enabling any compliant agent to work with any compliant tool.
 - **Feedback Loops** – How the agent **evaluates and refines its performance** over time.  
 
 <div class="mermaid">
