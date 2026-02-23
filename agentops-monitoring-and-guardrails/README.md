@@ -18,7 +18,7 @@ Building an agent that works in a notebook is very different from deploying one 
 - **How do you know what your agent is doing?** — Observability
 - **How do you stop it from doing something it shouldn't?** — Guardrails
 
-**AgentOps** is the practice of monitoring, evaluating, and governing AI agents in production. It sits at the intersection of traditional software operations (logging, alerting, tracing) and AI-specific concerns (prompt injection, hallucination, scope creep, and data exposure).
+**AgentOps** is the practice of monitoring, evaluating, and governing AI agents in production. It sits at the intersection of traditional software operations (logging, alerting, tracing) and AI-specific risks such as prompt injection, hallucination, scope creep, and data exposure.
 
 > **Key Takeaway:** An agent without observability and guardrails is not production-ready. These are not optional — they are the difference between a prototype and a trustworthy system.
 
@@ -292,7 +292,7 @@ print(execute_with_approval_gate("send_email", {
 
 ## Key Takeaways
 - **Observability** — You cannot manage what you cannot see. Log every tool call, trace every reasoning step, and monitor cost and latency from day one.
-- **Guardrails** — Apply input validation to block unsafe prompts and output validation to prevent data leakage before anything reaches the user.
+- **Guardrails** — Apply input validation to block unsafe prompts and output validation to prevent sensitive data leakage.
 - **Human-in-the-loop** — Classify actions by risk level and build approval gates for high-impact or irreversible operations.
-- **AgentOps is not a feature — it's a requirement.** Deploying an agent without these controls is the equivalent of deploying software with no error handling and no logging.
-- **Start simple.** You do not need a commercial platform on day one. Basic Python logging and a guardrail wrapper can take you far. Add production tooling (LangSmith, AgentOps.ai) as your agent's scope grows.
+- **AgentOps is not a feature — it's a requirement.** Deploying an agent without these controls is the equivalent of deploying software with no error handling, no logging, and no rollback.
+- **Start simple.** You do not need a commercial platform on day one. Basic Python logging and a guardrail wrapper can take you far. Introduce production tooling (LangSmith, AgentOps.ai) as your agent's scope grows.
